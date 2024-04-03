@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>Kurmann.Templates</PackageId>
+    <Title>Templates</Title>
+    <Authors>Patrick Kurmann</Authors>
+    <Description>Vorlagen basierend auf .NET für allgemeine Zwecke im Kurmann-Namespace.</Description>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/kurmann/Templates</RepositoryUrl>
+    <PackageTags>dotnet-new;templates;</PackageTags>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <!-- Die Version sollte mit jeder Veröffentlichung auf Nuget.org erhöht werden. Die Release Notes dürfen Umbrüche 
+    enthalten, jedoch keine spezifischen Markdown-Formatierungen wie fett oder kursiv oder Überschriften -->
+    <PackageVersion>0.1.0-beta</PackageVersion>
+    <PackageReleaseNotes>Erste Veröffentlichung mit einer Vorlage für eine .NET-Klassenbibliothek mit NuGet-Unterstützung.
+    </PackageReleaseNotes>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>PackageIcon.png</PackageIcon>
+
+    <IncludeContentInPackage>true</IncludeContentInPackage>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+    <!-- Die Gitignore-Datei ist hier enthalten, da es sich um eine Lösungsvorlage für ein Modul handelt, das auf einem dedizierten Git-Repository basiert. -->
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+
+    <!-- Templates enthalten in der Regel keine lib oder ref Ordner, da sie keine ausführbaren Codes oder Bibliotheken 
+    liefern, sondern eher eine Sammlung von Dateien und Ordnern, die als Ausgangspunkt für neue Projekte dienen. 
+    Deshalb kann die Warnung NU5128 ignoriert werden, solange das Template korrekt konfiguriert ist und wie erwartet 
+    funktioniert. -->
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**\*;templates\**\obj\**\*;templates\**\TestResult\**\*" />
+    
+    <Compile Remove="**\*" />
+    
+    <!-- remove MacOS specific files -->
+    <Content Remove="**\*.DS_Store" />
+
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="LICENSE" Pack="true" PackagePath="\"/>
+    <None Include="PackageIcon.png" Pack="true" PackagePath="\"/>
+
+  </ItemGroup>
+
+</Project>
