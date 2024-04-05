@@ -1,4 +1,5 @@
 # Templates
+
 Sammlung von .NET Projekt-Templates zur einschliesslich vorbereiteter NuGet-Klassenbibliotheken und GitHub Actions für eine effiziente Veröffentlichung
 
 ## Beschreibung
@@ -23,7 +24,7 @@ Nach der Installation stehen folgende Templates zur Verfügung:
 
 Dieses Template erstellt eine .NET Klassenbibliothek vorbereitet mit allen notwendigen Konfigurationen für die Veröffentlichung als NuGet-Paket im "Kurmann"-Namespace.
 
-#### Anwendung:
+#### Anwendung Klassenbibliothek-Template
 
 ```bash
 dotnet new nuget-classlib -n MeinNugetPaket -o src
@@ -37,7 +38,7 @@ Dieser Befehl erstellt ein neues Projekt mit dem Namen `MeinNugetPaket` basieren
 
 Ein zugehöriges Template, das eine GitHub-Actions-Workflow-Datei generiert, um die erstellte Klassenbibliothek automatisch auf NuGet.org zu veröffentlichen.
 
-#### Anwendung:
+#### Anwendung GitHub Action-Template
 
 ```bash
 dotnet new nuget-classlib-workflow
@@ -48,7 +49,7 @@ Dieser Befehl fügt eine GitHub-Action-Workflow-Datei zum Verzeichnis `.github/w
 ## Nutzung der Templates
 
 1. **Erstellung der Klassenbibliothek:**
-   
+
    Beginnen Sie mit der Erstellung einer neuen Klassenbibliothek, die als Grundlage für Ihr NuGet-Paket dient. Nutzen Sie das `nuget-classlib` Template, um eine Projektstruktur zu erhalten, die bereits alle notwendigen Konfigurationen für die NuGet-Paketierung enthält.
 
 2. **Konfiguration der GitHub-Action:**
