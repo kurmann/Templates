@@ -4,7 +4,7 @@
     <PackageId>Kurmann.Templates</PackageId>
     <Title>Templates</Title>
     <Authors>Patrick Kurmann</Authors>
-    <Description>Vorlagen basierend auf .NET für allgemeine Zwecke im Kurmann-Namespace.</Description>
+    <Description>Vorlagen für .NET-Entwicklung im Kurmann-Namespace.</Description>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/kurmann/Templates</RepositoryUrl>
     <PackageTags>dotnet-new;templates;</PackageTags>
@@ -12,8 +12,8 @@
 
     <!-- Die Version sollte mit jeder Veröffentlichung auf Nuget.org erhöht werden. Die Release Notes dürfen Umbrüche 
     enthalten, jedoch keine spezifischen Markdown-Formatierungen wie fett oder kursiv oder Überschriften -->
-    <PackageVersion>0.1.0-alpha.1</PackageVersion>
-    <PackageReleaseNotes>Template zur Erstellung einer Gitignore-Datei.
+    <PackageVersion>0.2.0-beta</PackageVersion>
+    <PackageReleaseNotes>Template erstellt zur Erstellung einer Klassenbibliothek im Kurmann-Namespace.
     </PackageReleaseNotes>
 
     <PackageReadmeFile>README.md</PackageReadmeFile>
