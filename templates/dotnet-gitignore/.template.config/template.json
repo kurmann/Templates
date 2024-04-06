@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Patrick Kurmann",
+  "classifications": [
+    "Common",
+    "GitHub"
+  ],
+  "identity": "Kurmann.Templates.GitIgnore",
+  "name": ".NET GitIgnore",
+  "shortName": "dotnet-gitignore",
+  "sourceName": "Kurmann.Templates.GitIgnore",
+  "description": "Creates a gitignore file for .NET projects.",
+  "tags": {
+    "language": "YAML",
+    "type": "item"
+  },
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".vs/**",
+            ".template_config/**",
+            "**/bin/**",
+            "**/obj/**",
+            "/bin/**",
+            "/obj/**",
+            ".git/**",
+            "Readme.md",
+            "LICENSE",
+            "nuget.csproj"
+          ]
+        }
+      ]
+    }
+  ]
+}
