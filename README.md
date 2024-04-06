@@ -23,7 +23,7 @@ Nach der Installation sind verschiedene Templates nutzbar, die den Entwicklungsp
 - **Kurzname:** `nuget-classlib`
 - Erstellt eine .NET Klassenbibliothek im "Kurmann"-Namespace, vorbereitet für die NuGet-Veröffentlichung.
 
-#### Nutzung
+#### Nutzung Klassenbibliotheks-Template
 
 ```bash
 dotnet new nuget-classlib -n MeinNugetPaket -o src
@@ -55,6 +55,6 @@ dotnet new dotnet-gitignore
 
 Dieser Befehl fügt ein vorkonfiguriertes `.gitignore` zu Ihrem Projekt hinzu, das eine Vielzahl von für .NET-Projekte typischen temporären Dateien und Verzeichnissen ignoriert.
 
----
+### Lizenz
 
-Lizenz: Apache 2.0 Lizenz im Wurzelverzeichnis unter `LICENSE` zu finden.
+Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
