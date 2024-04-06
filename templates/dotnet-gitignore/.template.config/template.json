@@ -6,7 +6,7 @@
     "GitHub"
   ],
   "identity": "Kurmann.Templates.GitIgnore",
-  "name": ".NET GitIgnore",
+  "name": "GitIgnore for .NET",
   "shortName": "dotnet-gitignore",
   "sourceName": "Kurmann.Templates.GitIgnore",
   "description": "Creates a gitignore file for .NET projects.",
