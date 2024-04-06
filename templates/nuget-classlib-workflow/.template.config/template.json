@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Patrick Kurmann",
+  "classifications": [
+    "Kurmann",
+    "GitHub"
+  ],
+  "identity": "Kurmann.ClassLibrary.GitHubWorkfow",
+  "name": "Kurmann Class Library GitHub Workflow",
+  "shortName": "nuget-classlib-workflow",
+  "sourceName": "EntityLib.ClassLibrary.GitHubWorkfow",
+  "description": "Creates a GitHub Actions workflow for publishing a Kurmann class library to NuGet.org.",
+  "tags": {
+    "language": "YAML",
+    "type": "item"
+  },
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".vs/**",
+            ".template_config/**",
+            "**/bin/**",
+            "**/obj/**",
+            "/bin/**",
+            "/obj/**",
+            ".git/**",
+            "Readme.md",
+            "LICENSE",
+            "nuget.csproj"
+          ]
+        }
+      ]
+    }
+  ]
+}
