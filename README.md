@@ -40,12 +40,12 @@ dotnet new nuget-classlib -n MeinNugetPaket -o src
 dotnet new nuget-classlib-workflow
 ```
 
-## Template: .NET Gitignore
+### Template: .NET Gitignore
 
 - **Kurzname:** `dotnet-gitignore`
 - Erstellt ein `.gitignore` im Arbeitsverzeichnis speziell für .NET-Entwicklungen, basierend auf aktuellen Best Practices und gängigen Ignorierungsregeln für .NET-Projekte.
 
-### Nutzung Gitignore-Template
+#### Nutzung Gitignore-Template
 
 Nach der Installation des `Kurmann.Templates` Pakets kann das `.gitignore` Template wie folgt angewendet werden:
 
@@ -55,6 +55,6 @@ dotnet new dotnet-gitignore
 
 Dieser Befehl fügt ein vorkonfiguriertes `.gitignore` zu Ihrem Projekt hinzu, das eine Vielzahl von für .NET-Projekte typischen temporären Dateien und Verzeichnissen ignoriert.
 
-### Lizenz
+## Lizenz
 
 Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
