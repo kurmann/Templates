@@ -1,4 +1,4 @@
-# Kurmann Templates
+# .NET Templates
 
 Eine kleine Sammlung von verschiedenen Templates zur Beschleunigung der .NET-Entwicklung  und vereinfachten NuGet-Veröffentlichung.
 
