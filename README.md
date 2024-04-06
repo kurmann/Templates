@@ -40,9 +40,10 @@ dotnet new nuget-classlib -n MeinNugetPaket -o src
 dotnet new nuget-classlib-workflow
 ```
 
-## Zusätzliches Template: .NET `.gitignore`
+## Template: .NET Gitignore
 
-- **Kurzname:** `dotnet-gitignore`- Erstellt ein `.gitignore` im Arbeitsverzeichnis speziell für .NET-Entwicklungen, basierend auf aktuellen Best Practices und gängigen Ignorierungsregeln für .NET-Projekte.
+- **Kurzname:** `dotnet-gitignore`
+- Erstellt ein `.gitignore` im Arbeitsverzeichnis speziell für .NET-Entwicklungen, basierend auf aktuellen Best Practices und gängigen Ignorierungsregeln für .NET-Projekte.
 
 ### Nutzung Gitignore-Template
 
