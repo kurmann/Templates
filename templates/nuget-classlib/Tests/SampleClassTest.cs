@@ -1,5 +1,3 @@
-using Kurmann.ClassLibrary;
-
 namespace Kurmann.ClassLibrary.Tests;
 
 [TestClass]
