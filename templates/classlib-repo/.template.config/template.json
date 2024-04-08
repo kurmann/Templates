@@ -5,9 +5,9 @@
     "Kurmann",
     "GitHub",
     "Repository",
-    "ClassLibrary"
+    "Entities"
   ],
-  "identity": "Kurmann.GitHub.Repository.ClassLibrary",
+  "identity": "Kurmann.GitHub.Repository.Entities",
   "name": "Kurmann Class Library Template",
   "shortName": "classlib-repo",
   "sourceName": "ProjectName",
