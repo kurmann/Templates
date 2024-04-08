@@ -1,20 +1,37 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageType>Template</PackageType>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Kurmann.Templates</PackageId>
     <Title>Templates</Title>
     <Authors>Patrick Kurmann</Authors>
-    <Description>Vorlagen für .NET-Entwicklung im Kurmann-Namespace.</Description>
-    <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/kurmann/Templates</RepositoryUrl>
-    <PackageTags>dotnet-new;templates;</PackageTags>
-    <TargetFramework>netstandard2.0</TargetFramework>
 
-    <!-- Die Version sollte mit jeder Veröffentlichung auf Nuget.org erhöht werden. Die Release Notes dürfen Umbrüche 
-    enthalten, jedoch keine spezifischen Markdown-Formatierungen wie fett oder kursiv oder Überschriften -->
-    <PackageVersion>0.3.0-beta.1</PackageVersion>
-    <PackageReleaseNotes>Korrektur: Workflow-Vorlage übernimmt korrekt den Bibliotheks-Namen in den Kurmann-Namespace.
-    </PackageReleaseNotes>
+    <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
+    <PackageTags>dotnet-new;templates;</PackageTags>
+
+    <!-- Die URL des GIT-Repositories -->
+    <RepositoryUrl>https://github.com/kurmann/Templates</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- Die Kurzbeschreibung des NuGet-Packets. Die längere Beschreibung wird als README.md eingebunden -->
+    <Description>Vorlagen für .NET-Entwicklung im Kurmann-Namespace.</Description>
+
+    <!-- Versionsverwaltung und -strategie: 
+     Die <PackageVersion> hier definiert die Basisversion für NuGet-Paketveröffentlichungen.
+     Für reguläre, stabile Releases (auf dem 'main'-Branch) sollte diese Version manuell gemäß den SemVer-Richtlinien (MAJOR.MINOR.PATCH) aktualisiert werden, 
+     bevor Änderungen in den 'main'-Branch gemerged werden. Dies stellt sicher, dass die Veröffentlichung die richtige Versionsnummer erhält.
+
+     Zwischenreleases, die automatisch über GitHub Actions für Nicht-'main'-Branches generiert werden, fügen der hier definierten Basisversion 
+     ein datumsbasiertes Suffix hinzu (z.B. -preview.YYYYMMDDHHMM), um die Einzigartigkeit und den Pre-Release-Status dieser Builds zu kennzeichnen.
+     Es ist nicht notwendig und wird nicht empfohlen, Pre-Release-Identifier wie 'alpha', 'beta', oder 'rc' manuell hier einzufügen,
+     da dies über den CI/CD-Prozess automatisiert gehandhabt wird. Alle Änderungen, die spezifisch Pre-Release-Versionen betreffen,
+     sollten stattdessen durch den CI/CD-Prozess gesteuert werden.
+
+     Die Release Notes für jede Version sollten separat gepflegt und vor dem Merge in den 'main'-Branch aktualisiert werden. -->
+    <PackageVersion>0.3.2</PackageVersion>
+
+    <!-- Die Release Notes sollten mindestens vor jeder Minor-Version in der README.md-Datei aktualisiert werden. -->
+    <PackageReleaseNotes>Siehe README.md für Details.</PackageReleaseNotes>
 
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>

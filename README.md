@@ -58,3 +58,40 @@ Dieser Befehl fügt ein vorkonfiguriertes `.gitignore` zu Ihrem Projekt hinzu, d
 ## Lizenz
 
 Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
+
+## Änderungsverlauf
+
+### Unveröffentlicht
+
+- Neues Template um ein ganzes GitHub-Repository zu erstellen mit .NET-Projekten, Gitignore, Nuget-Packaging-Workflows
+
+### Version 0.3.2 - 2024-04-08
+
+#### Hinzugefügt
+
+- Änderungsverlauf aus den zugehörigen veröffentlichen Nuget-Packages in dieses Readme integriert.
+
+### Version 0.3.1 - 2024-04-08
+
+#### Geändert
+
+- Vereinfachter Workflow für Zwischenreleases mit automatischer Datumsvergabe bei Vorschauversionen nach dem Vorbild aus "Kurmann.Messaging"
+
+### Version 0.3.0 - 2024-04-06
+
+#### Hinzugefügt
+
+- Template erstellt zur Erstellung einer GitHub-Action für die automatische Veröffentlichung von NuGet-Paketen.
+
+### Version 0.2.0 - 2024-04-06
+
+#### Hinzugefügt
+
+- Template erstellt zur Erstellung einer Klassenbibliothek im Kurmann-Namespace.
+
+### Version 0.1.0 - 2024-04-06
+
+#### Hinzugefügt
+
+- Template zur Erstellung einer Gitignore-Datei.
+- Erste Veröffentlichung mit einer Vorlage für eine .NET-Klassenbibliothek mit NuGet-Unterstützung.
