@@ -61,6 +61,8 @@ Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
 
 ## Änderungsverlauf
 
+- keine
+
 ### Unveröffentlicht
 
 ### Version 0.4.0 - 2024-04-08
