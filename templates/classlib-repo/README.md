@@ -1,4 +1,6 @@
-# ClassLibrary
+# ProjectName
+
+Namespace: **NamespacePlaceholder**
 
 ## Mitwirken
 
