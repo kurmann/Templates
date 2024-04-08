@@ -41,7 +41,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
 
-    <!-- Die Gitignore-Datei ist hier enthalten, da es sich um eine Lösungsvorlage für ein Modul handelt, das auf einem dedizierten Git-Repository basiert. -->
+    <!-- Lasse bestimmte Dateien wie Gitignroe im Template-Package drin -->
     <NoDefaultExcludes>true</NoDefaultExcludes>
 
     <!-- Templates enthalten in der Regel keine lib oder ref Ordner, da sie keine ausführbaren Codes oder Bibliotheken 
