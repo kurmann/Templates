@@ -35,5 +35,12 @@
         }
       ]
     }
-  ]
+  ],
+  "symbols": {
+    "namespace": {
+        "type": "parameter",
+        "defaultValue": "Kurmann",
+        "replaces": "RootNamespace"
+    }
+  }
 }
