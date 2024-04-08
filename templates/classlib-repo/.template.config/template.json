@@ -10,7 +10,7 @@
   "identity": "Kurmann.GitHub.Repository.ClassLibrary",
   "name": "Kurmann Class Library Template",
   "shortName": "classlib-repo",
-  "sourceName": "ClassLibrary",
+  "sourceName": "ProjectName",
   "description": "GitHub repository template containing .NET class library, gitignore, and GitHub Actions for NuGet package publishing.",
   "tags": {
     "language": "C#",

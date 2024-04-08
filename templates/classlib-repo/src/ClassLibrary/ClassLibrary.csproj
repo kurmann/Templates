@@ -6,9 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <RootNamespace>Kurmann.ClassLibrary</RootNamespace>
-    <AssemblyName>Kurmann.ClassLibrary</AssemblyName>
-    <PackageId>Kurmann.ClassLibrary</PackageId>
+    <RootNamespace>NamespacePlaceholder.ProjectName</RootNamespace>
+    <AssemblyName>NamespacePlaceholder.ProjectName</AssemblyName>
+    <PackageId>NamespacePlaceholder.ProjectName</PackageId>
     
     <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
     <PackageTags>Videoschnitt</PackageTags>

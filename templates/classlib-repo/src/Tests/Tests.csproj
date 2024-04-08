@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-    <RootNamespace>Kurmann.ClassLibrary.Tests</RootNamespace>
-    <AssemblyName>Kurmann.ClassLibrary.Tests</AssemblyName>
+    <RootNamespace>NamespacePlaceholder.ProjectName.Tests</RootNamespace>
+    <AssemblyName>NamespacePlaceholder.ProjectName.Tests</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
