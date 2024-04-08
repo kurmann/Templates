@@ -8,10 +8,10 @@
     "Entities"
   ],
   "identity": "Kurmann.GitHub.Repository.Entities",
-  "name": "Kurmann Class Library Template",
-  "shortName": "classlib-repo",
+  "name": "Kurmann Entities GitHub Repository",
+  "shortName": "entities-repo",
   "sourceName": "ProjectName",
-  "description": "GitHub repository template containing .NET class library, gitignore, and GitHub Actions for NuGet package publishing.",
+  "description": "GitHub repository template containing .NET entities class library, gitignore, and GitHub Actions for NuGet package publishing.",
   "tags": {
     "language": "C#",
     "type": "solution"
