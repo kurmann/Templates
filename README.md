@@ -65,7 +65,9 @@ Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
 
 - Neues Template um ein ganzes GitHub-Repository zu erstellen mit .NET-Projekten, Gitignore, Nuget-Packaging-Workflows
 
-### Version 0.4.0 - 2024-04-08
+### Version 0.3.3 - 2024-04-08
+
+#### Hinzugefügt
 
 - Klassenbibliothekts-Template unterstützt die Angabe von Namespaces
 
