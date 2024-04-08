@@ -63,7 +63,9 @@ Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
 
 ### Unveröffentlicht
 
-- Neues Template um ein ganzes GitHub-Repository zu erstellen mit .NET-Projekten, Gitignore, Nuget-Packaging-Workflows
+### Version 0.4.0 - 2024-04-08
+
+- Neues Template "entities-repo" erstellt zur Initialisierung eines ganzen GitHub-Repositorys mit .NET-Projekten Entities mit Tests, Gitignore, Nuget-Packaging-Workflow.
 
 ### Version 0.3.3 - 2024-04-08
 
