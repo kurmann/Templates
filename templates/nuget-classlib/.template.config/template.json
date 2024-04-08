@@ -35,5 +35,13 @@
         }
       ]
     }
-  ]
+  ],
+  "symbols": {
+    "namespace": {
+        "type": "parameter",
+        "description": "The root namespace for the project e.g 'Kurmann.Videoschnitt'",
+        "defaultValue": "Kurmann",
+        "replaces": "NamespacePlaceholder"
+    }
+  }
 }

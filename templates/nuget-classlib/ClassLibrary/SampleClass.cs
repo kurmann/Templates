@@ -1,4 +1,4 @@
-﻿namespace Kurmann.ClassLibrary;
+﻿namespace NamespacePlaceholder.ClassLibrary;
 
 public class SampleClass
 {

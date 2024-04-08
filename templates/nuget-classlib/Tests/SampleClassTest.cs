@@ -1,4 +1,4 @@
-namespace Kurmann.ClassLibrary.Tests;
+namespace NamespacePlaceholder.ClassLibrary.Tests;
 
 [TestClass]
 public class SampleClassTest
