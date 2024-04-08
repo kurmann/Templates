@@ -1,4 +1,4 @@
-﻿namespace RootNamespace.ClassLibrary;
+﻿namespace NamespacePlaceholder.ClassLibrary;
 
 public class SampleClass
 {

@@ -1,4 +1,4 @@
-namespace RootNamespace.ClassLibrary.Tests;
+namespace NamespacePlaceholder.ClassLibrary.Tests;
 
 [TestClass]
 public class SampleClassTest
