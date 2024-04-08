@@ -30,8 +30,6 @@
             "/obj/**",
             "/TestResults/**",
             ".git/**",
-            "Readme.md",
-            "LICENSE",
             "nuget.csproj"
           ]
         }
