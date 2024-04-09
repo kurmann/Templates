@@ -56,7 +56,7 @@ ProjectName/
 
 Diese Struktur beinhaltet alles, was Sie für ein professionelles Entity-Management benötigen, einschließlich Continuous Integration und Package Publishing.
 
-Die **Namespeaces** werden vom Parameter `--namespace`übernommen. Die SampleClass bekommt bspw. den Namespace `RootNamespace.ProjectName`.
+Der **Namespace** wird vom Parameter `--namespace`übernommen. Die SampleClass bekommt bspw. den Namespace `RootNamespace.ProjectName`.
 
 ### Klassenbibliothek Template
 
