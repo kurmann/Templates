@@ -103,9 +103,15 @@ Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
 
 ## Änderungsverlauf
 
+### Unveröffentlicht
+
 - keine
 
-### Unveröffentlicht
+### Version 0.4.1 - 2024-04-09
+
+#### Hinzugefügt
+
+- Template `entities-repo` mit neuem Template-Symbol `--description`.
 
 ### Version 0.4.0 - 2024-04-09
 
