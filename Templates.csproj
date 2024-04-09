@@ -28,7 +28,7 @@
      sollten stattdessen durch den CI/CD-Prozess gesteuert werden.
 
      Die Release Notes für jede Version sollten separat gepflegt und vor dem Merge in den 'main'-Branch aktualisiert werden. -->
-    <PackageVersion>0.3.3</PackageVersion>
+    <PackageVersion>0.4.0</PackageVersion>
 
     <!-- Die Release Notes sollten mindestens vor jeder Minor-Version in der README.md-Datei aktualisiert werden. -->
     <PackageReleaseNotes>Siehe README.md für Details.</PackageReleaseNotes>
@@ -41,7 +41,7 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
 
-    <!-- Die Gitignore-Datei ist hier enthalten, da es sich um eine Lösungsvorlage für ein Modul handelt, das auf einem dedizierten Git-Repository basiert. -->
+    <!-- Lasse bestimmte Dateien wie Gitignroe im Template-Package drin -->
     <NoDefaultExcludes>true</NoDefaultExcludes>
 
     <!-- Templates enthalten in der Regel keine lib oder ref Ordner, da sie keine ausführbaren Codes oder Bibliotheken 

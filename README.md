@@ -18,6 +18,46 @@ dotnet new --install Kurmann.Templates
 
 Nach der Installation sind verschiedene Templates nutzbar, die den Entwicklungsprozess unterstützen:
 
+### Entities GitHub Repository Template
+
+Dieses Template dient der Erstellung eines GitHub-Repositories, das eine .NET-Klassenbibliothek für Entitäten beinhaltet. Es enthält eine vorbereitete `.gitignore`, GitHub Actions für die Veröffentlichung von NuGet-Paketen und unterstützt eine klare und einheitliche Ordnerstruktur für Ihr Projekt.
+
+**Kurzname**: `entities-repo`
+
+#### Verwendung
+
+Um ein neues Repository für Ihre .NET-Entitätsklassen zu initialisieren, verwenden Sie den folgenden Befehl in Ihrem Terminal:
+
+```bash
+dotnet new entities-repo -n ProjectName --namespace RootNamespace
+```
+
+Mit diesem Befehl wird eine klare und einheitliche Verzeichnisstruktur für Ihr Repository erstellt, die die Entwicklung und Veröffentlichung von NuGet-Paketen vereinfacht. Das generierte Repository sieht wie folgt aus:
+
+```text
+ProjectName/
+├── .github/
+│   └── workflows/
+│       └── dotnet.yml
+├── src/
+│   ├── Entities/
+│   │   ├── Entities.csproj
+│   │   └── SampleClass.cs
+│   └── ProjectName.sln
+├── Tests/
+│   ├── GlobalUsings.cs
+│   ├── SampleClassTests.cs
+│   └── Tests.csproj
+├── .gitignore
+├── LICENSE
+├── README.md
+└── PackageIcon.png
+```
+
+Diese Struktur beinhaltet alles, was Sie für ein professionelles Entity-Management benötigen, einschließlich Continuous Integration und Package Publishing.
+
+Der **Namespace** wird vom Parameter `--namespace`übernommen. Die SampleClass bekommt bspw. den Namespace `RootNamespace.ProjectName`.
+
 ### Klassenbibliothek Template
 
 - **Kurzname:** `nuget-classlib`
@@ -61,9 +101,13 @@ Das Projekt steht unter der [Apache 2.0 Lizenz](LICENSE).
 
 ## Änderungsverlauf
 
+- keine
+
 ### Unveröffentlicht
 
-- Neues Template um ein ganzes GitHub-Repository zu erstellen mit .NET-Projekten, Gitignore, Nuget-Packaging-Workflows
+### Version 0.4.0 - 2024-04-09
+
+- Neues Template "entities-repo" erstellt zur Initialisierung eines ganzen GitHub-Repositorys mit .NET-Projekten Entities mit Tests, Gitignore, Nuget-Packaging-Workflow.
 
 ### Version 0.3.3 - 2024-04-08
 
