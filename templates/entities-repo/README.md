@@ -2,6 +2,9 @@
 
 Namespace: **NamespacePlaceholder**
 
+ProjectDescription
+
+
 ## Mitwirken
 
 Derzeit entwickle ich das Projekt im Alleingang. Als dreifacher Familienvater bin ich für jede Unterstützung und Weiterentwicklungen dankbar. Bitte erstellen Sie ein GitHub-Issue als Anfrage.
