@@ -18,7 +18,7 @@
     <RepositoryType>git</RepositoryType>
 
     <!-- Die Kurzbeschreibung des NuGet-Packets. Die längere Beschreibung wird als README.md eingebunden -->
-    <Description></Description>
+    <Description>ProjectDescription</Description>
 
     <!-- Versionsverwaltung und -strategie: 
     Die <PackageVersion> hier definiert die Basisversion für NuGet-Paketveröffentlichungen.

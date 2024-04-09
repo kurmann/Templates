@@ -38,10 +38,16 @@
   ],
   "symbols": {
     "namespace": {
-        "type": "parameter",
-        "description": "The root namespace for the project e.g 'Kurmann.Videoschnitt'",
-        "defaultValue": "Kurmann",
-        "replaces": "NamespacePlaceholder"
-    }
+      "type": "parameter",
+      "description": "The root namespace for the project e.g 'Kurmann.Videoschnitt'",
+      "defaultValue": "Kurmann",
+      "replaces": "NamespacePlaceholder"
+    },
+    "description": {
+      "type": "parameter",
+      "description": "The project short description.",
+      "defaultValue": "",
+      "replaces": "ProjectDescription"
+    } 
   }
 }
