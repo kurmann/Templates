@@ -18,6 +18,23 @@ dotnet new --install Kurmann.Templates
 
 Nach der Installation sind verschiedene Templates nutzbar, die den Entwicklungsprozess unterstützen:
 
+### Entities GitHub Repository Template
+
+Dieses Template dient der Erstellung eines GitHub-Repositories, das eine .NET-Klassenbibliothek für Entitäten beinhaltet. Es enthält eine vorbereitete `.gitignore`, GitHub Actions für die Veröffentlichung von NuGet-Paketen und unterstützt eine klare und einheitliche Ordnerstruktur für Ihr Projekt.
+
+**Kurzname**: `entities-repo`
+
+#### Verwendung
+
+**Allgemein**
+```bash
+dotnet new entities-repo -n ProjectName --namespace Rootnamespace
+```
+**Beispiel**
+```bash
+dotnet new entities-repo -n Metadata --namespace Kurmann.Media
+```
+
 ### Klassenbibliothek Template
 
 - **Kurzname:** `nuget-classlib`
