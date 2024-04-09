@@ -26,14 +26,37 @@ Dieses Template dient der Erstellung eines GitHub-Repositories, das eine .NET-Kl
 
 #### Verwendung
 
-**Allgemein**
+Um ein neues Repository für Ihre .NET-Entitätsklassen zu initialisieren, verwenden Sie den folgenden Befehl in Ihrem Terminal:
+
 ```bash
-dotnet new entities-repo -n ProjectName --namespace Rootnamespace
+dotnet new entities-repo -n ProjectName --namespace RootNamespace
 ```
-**Beispiel**
-```bash
-dotnet new entities-repo -n Metadata --namespace Kurmann.Media
+
+Mit diesem Befehl wird eine klare und einheitliche Verzeichnisstruktur für Ihr Repository erstellt, die die Entwicklung und Veröffentlichung von NuGet-Paketen vereinfacht. Das generierte Repository sieht wie folgt aus:
+
+```text
+ProjectName/
+├── .github/
+│   └── workflows/
+│       └── dotnet.yml
+├── src/
+│   ├── Entities/
+│   │   ├── Entities.csproj
+│   │   └── SampleClass.cs
+│   └── ProjectName.sln
+├── Tests/
+│   ├── GlobalUsings.cs
+│   ├── SampleClassTests.cs
+│   └── Tests.csproj
+├── .gitignore
+├── LICENSE
+├── README.md
+└── PackageIcon.png
 ```
+
+Diese Struktur beinhaltet alles, was Sie für ein professionelles Entity-Management benötigen, einschließlich Continuous Integration und Package Publishing.
+
+Die **Namespeaces** werden vom Parameter `--namespace`übernommen. Die SampleClass bekommt bspw. den Namespace `RootNamespace.ProjectName`.
 
 ### Klassenbibliothek Template
 
