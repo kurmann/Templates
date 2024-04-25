@@ -31,6 +31,8 @@ jobs:
           RELEASE_NAME=$(echo "$LATEST_RELEASE_OR_PRERELEASE_JSON" | jq -r '.name')
           RELEASE_IS_PRERELEASE=$(echo "$LATEST_RELEASE_OR_PRERELEASE_JSON" | jq -r '.isPrerelease')
           RELEASE_VERSION="${RELEASE_TAG_NAME#"v"}"
+
+          echo "Found latest release tag name: $RELEASE_TAG_NAME"
           
           REPO_URL="https://github.com/${GITHUB_REPOSITORY}"
           RELEASE_URL="${REPO_URL}/releases/tag/${RELEASE_TAG_NAME}"
