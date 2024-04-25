@@ -24,7 +24,7 @@ jobs:
       - name: Get latest release or prerelease
         id: get_release_or_prerelease
         run: |
-          RELEASES_JSON=$(gh release list --json tagName,name,isPrerelease)
+          RELEASES_JSON=$(gh release list --json tagName,name,isPrerelease --exclude-drafts)
           LATEST_RELEASE_OR_PRERELEASE_JSON=$(echo "$RELEASES_JSON" | jq -r '.[0]')
           
           RELEASE_TAG_NAME=$(echo "$LATEST_RELEASE_OR_PRERELEASE_JSON" | jq -r '.tagName')
