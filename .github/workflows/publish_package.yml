@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Erlaubt manuelles Auslösen des Workflows über die GitHub-Oberfläche
 
 env:
-  CSPROJ_FILE: Templates/Templates.csproj
+  CSPROJ_FILE: Templates.csproj
   DOTNET_VERSION: '8.0.x'
 
 jobs:
@@ -49,9 +49,11 @@ jobs:
       
       - name: Build
         run: dotnet build ${{ env.CSPROJ_FILE }} --no-restore --configuration Release
-
+        
+        # Packen des Projekts in ein NuGet-Paket
+        # Hinweis: Kein Symbolpaket da es sich um ein Template-Projekt handelt.
       - name: Pack
-        run: |
+        run: | 
           echo "Using version ${{ needs.get_release.outputs.release_version }} from setup job."
           dotnet pack ${{ env.CSPROJ_FILE }} --no-build --configuration Release \
           -p:PackageVersion=${{ needs.get_release.outputs.release_version }} \
@@ -59,7 +61,7 @@ jobs:
           -p:PackageProjectUrl="https://github.com/${{ github.repository }}" \
           -p:RepositoryUrl="https://github.com/${{ github.repository }}.git" \
           -p:RepositoryType="git" \
-          -o nupkg
+          -o nupkg 
         shell: bash
 
       - name: List output files
