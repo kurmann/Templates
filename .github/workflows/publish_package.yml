@@ -24,15 +24,13 @@ jobs:
       - name: Get latest release or prerelease
         id: get_release_or_prerelease
         run: |
-          RELEASES_JSON=$(gh release list --json tagName,name,isPrerelease)
+          RELEASES_JSON=$(gh release list --json tagName,name,isPrerelease --exclude-drafts)
           LATEST_RELEASE_OR_PRERELEASE_JSON=$(echo "$RELEASES_JSON" | jq -r '.[0]')
           
           RELEASE_TAG_NAME=$(echo "$LATEST_RELEASE_OR_PRERELEASE_JSON" | jq -r '.tagName')
           RELEASE_NAME=$(echo "$LATEST_RELEASE_OR_PRERELEASE_JSON" | jq -r '.name')
           RELEASE_IS_PRERELEASE=$(echo "$LATEST_RELEASE_OR_PRERELEASE_JSON" | jq -r '.isPrerelease')
           RELEASE_VERSION="${RELEASE_TAG_NAME#"v"}"
-
-          echo "Found latest release tag name: $RELEASE_TAG_NAME"
           
           REPO_URL="https://github.com/${GITHUB_REPOSITORY}"
           RELEASE_URL="${REPO_URL}/releases/tag/${RELEASE_TAG_NAME}"
