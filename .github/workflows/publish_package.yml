@@ -39,6 +39,8 @@ jobs:
           echo "release_tag_name=$RELEASE_TAG_NAME" >> "$GITHUB_OUTPUT"
           echo "release_url=$RELEASE_URL" >> "$GITHUB_OUTPUT"
           echo "release_is_prerelease=$RELEASE_IS_PRERELEASE" >> "$GITHUB_OUTPUT"
+          
+          echo "Found latest $(if [ "$RELEASE_IS_PRERELEASE" = "true" ]; then echo "prerelease"; else echo "release"; fi): $RELEASE_TAG_NAME"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     outputs:
