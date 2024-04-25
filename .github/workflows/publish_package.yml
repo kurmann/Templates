@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Erlaubt manuelles Auslösen des Workflows über die GitHub-Oberfläche
 
 env:
-  CSPROJ_FILE: Templates/Templates.csproj
+  CSPROJ_FILE: Templates.csproj
   DOTNET_VERSION: '8.0.x'
 
 jobs:
