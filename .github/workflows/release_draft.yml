@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      CSPROJ_FILE: Templates/Templates.csproj
+      CSPROJ_FILE: Templates.csproj
       DOTNET_VERSION: '8.0.x'
 
     steps:
