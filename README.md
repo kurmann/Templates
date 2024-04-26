@@ -82,7 +82,7 @@ IhrProjektName/
 │   ├── release-drafter-config.yml
 │   └── workflows/
 │       ├── draft_release.yml
-│       ├── publish_package.yml
+│       └── publish_package.yml
 ├── .vscode/
 │   ├── launch.json
 │   └── tasks.json
@@ -97,9 +97,11 @@ IhrProjektName/
 │       ├── Queries/
 │       │   ├── IQueryService.cs
 │       │   └── SampleQuery.cs
-│       └── Services/
-│           ├── SampleHostedService.cs
-│           └── ServiceCollection.cs
+│       └── Hosted/
+│           └── SampleHostedService.cs
+│       ├── Services.csproj
+│       ├── ServiceCollection.cs
+│       └── ProjectNameSettings.cs
 ├── .gitignore
 ├── LICENSE
 ├── PackageIcon.png
