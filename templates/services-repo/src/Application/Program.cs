@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
-namespace Kurmann.Videoschnitt.ProjectName.Application;
+namespace RootNamespace.ProjectName.Application;
 
 internal class Program
 {

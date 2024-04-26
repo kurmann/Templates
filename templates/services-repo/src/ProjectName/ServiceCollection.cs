@@ -1,8 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
-using Kurmann.Videoschnitt.ProjectName.Services;
+using RootNamespace.ProjectName.Services;
 
-namespace Kurmann.Videoschnitt.ProjectName;
+namespace RootNamespace.ProjectName;
 
 public static class ServiceCollectionExtensions
 {

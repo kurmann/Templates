@@ -1,6 +1,6 @@
 using CSharpFunctionalExtensions;
 
-namespace Kurmann.Videoschnitt.ProjectName.Queries;
+namespace RootNamespace.ProjectName.Queries;
 
 public class SampleQuery(string? sampleParameter) : IQueryService<SampleQueryResult>
 {

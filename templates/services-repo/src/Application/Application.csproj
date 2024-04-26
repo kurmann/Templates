@@ -9,7 +9,6 @@
     <RootNamespace>RootNamespace.ProjectName.Application.</RootNamespace>
     <AssemblyName>RootNamespace.Application</AssemblyName>
     <IsPackable>false</IsPackable>
-    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

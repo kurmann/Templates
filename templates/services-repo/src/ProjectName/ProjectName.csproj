@@ -6,28 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <RootNamespace>Kurmann.Videoschnitt.ProjectName</RootNamespace>
-    <AssemblyName>Kurmann.Videoschnitt.ProjectName</AssemblyName>
-    <PackageId>Kurmann.Videoschnitt.ProjectName</PackageId>
+    <RootNamespace>RootNamespace.ProjectName</RootNamespace>
+    <AssemblyName>RootNamespace.ProjectName</AssemblyName>
+    <PackageId>RootNamespace.ProjectName</PackageId>
 
     <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
-    <PackageTags>Videoschnitt</PackageTags>
-
-    <!-- Die URL des GIT-Repositories -->
-    <RepositoryUrl></RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
+    <PackageTags>RootNamespace</PackageTags>
 
     <!-- Die Kurzbeschreibung des NuGet-Packets. Die längere Beschreibung wird als README.md eingebunden -->
     <Description></Description>
-
-    <!-- Die Version sollte mit jeder Veröffentlichung auf Nuget.org erhöht werden. Die Release Notes dürfen Umbrüche 
-    enthalten, jedoch keine spezifischen Markdown-Formatierungen wie fett oder kursiv oder Überschriften -->
-    <PackageVersion>0.1.0-alpha</PackageVersion>
-
-    <!-- Die Release Notes gelten pro Version und sollten dementsprechend bei jeder neuen Version angepasst werden.  -->
-    <!-- Die Notes dürfen Umbrüche enthalten, jedoch keine spezifischen Markdown-Formatierungen wie fett oder kursiv oder Überschriften -->
-    <PackageReleaseNotes>
-    </PackageReleaseNotes>
 
     <!-- Die README.md-Datei, die im NuGet-Paket eingebettet wird. Entspricht gleichzeitig der GitHub Readme-Datei. -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
