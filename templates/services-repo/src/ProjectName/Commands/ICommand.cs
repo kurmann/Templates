@@ -1,6 +1,6 @@
 using CSharpFunctionalExtensions;
 
-namespace RootNamespace.ProjectName.Commands;
+namespace NamespacePlaceholder.ProjectName.Commands;
 
 public interface ICommand<T>
 {

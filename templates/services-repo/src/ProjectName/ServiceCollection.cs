@@ -1,8 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
-using RootNamespace.ProjectName.Services;
+using NamespacePlaceholder.ProjectName.Services;
 
-namespace RootNamespace.ProjectName;
+namespace NamespacePlaceholder.ProjectName;
 
 public static class ServiceCollectionExtensions
 {

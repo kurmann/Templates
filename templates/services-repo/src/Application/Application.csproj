@@ -6,8 +6,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>RootNamespace.ProjectName.Application.</RootNamespace>
-    <AssemblyName>RootNamespace.Application</AssemblyName>
+    <RootNamespace>NamespacePlaceholder.ProjectName.Application.</RootNamespace>
+    <AssemblyName>NamespacePlaceholder.Application</AssemblyName>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 

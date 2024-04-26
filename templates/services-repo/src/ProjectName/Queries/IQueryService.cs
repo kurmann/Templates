@@ -1,6 +1,6 @@
 using CSharpFunctionalExtensions;
 
-namespace RootNamespace.ProjectName.Queries;
+namespace NamespacePlaceholder.ProjectName.Queries;
 
 public interface IQueryService<T>
 {

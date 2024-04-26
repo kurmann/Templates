@@ -1,6 +1,6 @@
 ﻿using CSharpFunctionalExtensions;
 
-namespace RootNamespace.ProjectName.Commands;
+namespace NamespacePlaceholder.ProjectName.Commands;
 
 public class SampleCommand(string? sampleParameter) : ICommand<SampleCommandResult>
 {

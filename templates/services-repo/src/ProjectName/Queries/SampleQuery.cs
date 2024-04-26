@@ -1,6 +1,6 @@
 using CSharpFunctionalExtensions;
 
-namespace RootNamespace.ProjectName.Queries;
+namespace NamespacePlaceholder.ProjectName.Queries;
 
 public class SampleQuery(string? sampleParameter) : IQueryService<SampleQueryResult>
 {
