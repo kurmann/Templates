@@ -6,15 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <RootNamespace>RootNamespace.ProjectName</RootNamespace>
-    <AssemblyName>RootNamespace.ProjectName</AssemblyName>
-    <PackageId>RootNamespace.ProjectName</PackageId>
+    <RootNamespace>NamespacePlaceholder.ProjectName</RootNamespace>
+    <AssemblyName>NamespacePlaceholder.ProjectName</AssemblyName>
+    <PackageId>NamespacePlaceholder.ProjectName</PackageId>
 
     <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
-    <PackageTags>RootNamespace</PackageTags>
+    <PackageTags>NamespacePlaceholder</PackageTags>
 
     <!-- Die Kurzbeschreibung des NuGet-Packets. Die längere Beschreibung wird als README.md eingebunden -->
-    <Description></Description>
+    <Description>ProjectDescription</Description>
 
     <!-- Die README.md-Datei, die im NuGet-Paket eingebettet wird. Entspricht gleichzeitig der GitHub Readme-Datei. -->
     <PackageReadmeFile>README.md</PackageReadmeFile>

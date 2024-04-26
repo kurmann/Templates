@@ -11,7 +11,7 @@
     <PackageId>NamespacePlaceholder.ProjectName</PackageId>
     
     <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
-    <PackageTags>RootNamespace</PackageTags>
+    <PackageTags>NamespacePlaceholder</PackageTags>
 
     <!-- Die Kurzbeschreibung des NuGet-Packets. Die längere Beschreibung wird als README.md eingebunden -->
     <Description>ProjectDescription</Description>
