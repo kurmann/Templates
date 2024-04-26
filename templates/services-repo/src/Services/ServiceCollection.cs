@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
-using NamespacePlaceholder.ProjectName.Services;
+using NamespacePlaceholder.ProjectName.Hosted;
 
 namespace NamespacePlaceholder.ProjectName;
 
