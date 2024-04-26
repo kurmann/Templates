@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      CSPROJ_FILE: src/ProjectName/ProjectName.csproj
+      CSPROJ_FILE: src/Entities/Entities.csproj
       DOTNET_VERSION: '8.0.x'
 
     steps:
