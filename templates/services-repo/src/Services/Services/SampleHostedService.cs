@@ -4,10 +4,10 @@ using Microsoft.Extensions.Options;
 
 namespace NamespacePlaceholder.ProjectName.Services;
 
-public class SampleHostedService(ILogger<SampleHostedService> logger, IOptionsSnapshot<ModuleSettings> options) : IHostedService, IDisposable
+public class SampleHostedService(ILogger<SampleHostedService> logger, IOptionsSnapshot<ProjectNameSettings> options) : IHostedService, IDisposable
 {
     private readonly ILogger<SampleHostedService> _logger = logger;
-    private readonly ModuleSettings _options = options.Value;
+    private readonly ProjectNameSettings _options = options.Value;
     private Timer? _timer;
 
     public Task StartAsync(CancellationToken cancellationToken)
