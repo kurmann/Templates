@@ -2,7 +2,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Kurmann.Videoschnitt.ModuleName.Services;
+namespace Kurmann.Videoschnitt.ProjectName.Services;
 
 public class SampleHostedService(ILogger<SampleHostedService> logger, IOptionsSnapshot<ModuleSettings> options) : IHostedService, IDisposable
 {

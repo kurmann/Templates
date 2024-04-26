@@ -6,9 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <RootNamespace>Kurmann.Videoschnitt.ModuleName</RootNamespace>
-    <AssemblyName>Kurmann.Videoschnitt.ModuleName</AssemblyName>
-    <PackageId>Kurmann.Videoschnitt.ModuleName</PackageId>
+    <RootNamespace>Kurmann.Videoschnitt.ProjectName</RootNamespace>
+    <AssemblyName>Kurmann.Videoschnitt.ProjectName</AssemblyName>
+    <PackageId>Kurmann.Videoschnitt.ProjectName</PackageId>
 
     <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
     <PackageTags>Videoschnitt</PackageTags>
