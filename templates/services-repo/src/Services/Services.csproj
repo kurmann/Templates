@@ -1,25 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageType>Dependency</PackageType>
+
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <RootNamespace>Kurmann.ClassLibrary</RootNamespace>
-    <AssemblyName>Kurmann.ClassLibrary</AssemblyName>
-    <PackageId>Kurmann.ClassLibrary</PackageId>
-    
+    <RootNamespace>NamespacePlaceholder.ProjectName</RootNamespace>
+    <AssemblyName>NamespacePlaceholder.ProjectName</AssemblyName>
+    <PackageId>NamespacePlaceholder.ProjectName</PackageId>
+
     <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
-    <PackageTags>RootNamespace</PackageTags>
+    <PackageTags>NamespacePlaceholder</PackageTags>
 
     <!-- Die Kurzbeschreibung des NuGet-Packets. Die längere Beschreibung wird als README.md eingebunden -->
-    <Description></Description>
-
-    <!-- Die Release Notes gelten pro Version und sollten dementsprechend bei jeder neuen Version angepasst werden.  -->
-    <!-- Die Notes dürfen Umbrüche enthalten, jedoch keine spezifischen Markdown-Formatierungen wie fett oder kursiv oder Überschriften -->
-    <PackageReleaseNotes>
-    </PackageReleaseNotes>
+    <Description>ProjectDescription</Description>
 
     <!-- Die README.md-Datei, die im NuGet-Paket eingebettet wird. Entspricht gleichzeitig der GitHub Readme-Datei. -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -41,5 +36,12 @@
     <Deterministic>true</Deterministic>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.41.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+  </ItemGroup>
 
 </Project>

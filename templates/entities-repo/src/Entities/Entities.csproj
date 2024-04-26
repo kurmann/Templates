@@ -11,31 +11,10 @@
     <PackageId>NamespacePlaceholder.ProjectName</PackageId>
     
     <!-- Package-Tages zur Katalogisierung auf Nuget.org. Mehrere Tags mit Semikolen ";" trennen. -->
-    <PackageTags>Kurmann;Entities</PackageTags>
-
-    <!-- Die URL des GIT-Repositories -->
-    <RepositoryUrl></RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
+    <PackageTags>NamespacePlaceholder</PackageTags>
 
     <!-- Die Kurzbeschreibung des NuGet-Packets. Die längere Beschreibung wird als README.md eingebunden -->
     <Description>ProjectDescription</Description>
-
-    <!-- Versionsverwaltung und -strategie: 
-    Die <PackageVersion> hier definiert die Basisversion für NuGet-Paketveröffentlichungen.
-    Für reguläre, stabile Releases (auf dem 'main'-Branch) sollte diese Version manuell gemäß den SemVer-Richtlinien (MAJOR.MINOR.PATCH) aktualisiert werden, 
-    bevor Änderungen in den 'main'-Branch gemerged werden. Dies stellt sicher, dass die Veröffentlichung die richtige Versionsnummer erhält.
-
-    Zwischenreleases, die automatisch über GitHub Actions für Nicht-'main'-Branches generiert werden, fügen der hier definierten Basisversion 
-    ein datumsbasiertes Suffix hinzu (z.B. -preview.YYYYMMDDHHMM), um die Einzigartigkeit und den Pre-Release-Status dieser Builds zu kennzeichnen.
-    Es ist nicht notwendig und wird nicht empfohlen, Pre-Release-Identifier wie 'alpha', 'beta', oder 'rc' manuell hier einzufügen,
-    da dies über den CI/CD-Prozess automatisiert gehandhabt wird. Alle Änderungen, die spezifisch Pre-Release-Versionen betreffen,
-    sollten stattdessen durch den CI/CD-Prozess gesteuert werden.
-
-    Die Release Notes für jede Version sollten separat gepflegt und vor dem Merge in den 'main'-Branch aktualisiert werden. -->
-    <PackageVersion>0.1.0</PackageVersion>
-
-    <!-- Die Release Notes sollten mindestens vor jeder Minor-Version in der README.md-Datei aktualisiert werden. -->
-    <PackageReleaseNotes>Siehe README.md für Details.</PackageReleaseNotes>
 
     <!-- Die README.md-Datei, die im NuGet-Paket eingebettet wird. Entspricht gleichzeitig der GitHub Readme-Datei. -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
