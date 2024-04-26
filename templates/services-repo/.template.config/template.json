@@ -9,7 +9,7 @@
   ],
   "identity": "Kurmann.GitHub.Repository.Services",
   "name": "Kurmann Services GitHub Repository",
-  "shortName": "classlib-repo",
+  "shortName": "services-repo",
   "sourceName": "ProjectName",
   "description": "GitHub repository template containing .NET service classlib with integration test application, gitignore, and GitHub Actions for NuGet package publishing.",
   "tags": {
