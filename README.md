@@ -60,36 +60,16 @@ Der **Namespace** wird vom Parameter `--namespace`übernommen. Die SampleClass b
 
 Die **ProjectDescription** wird integriert im resultierenden README.md und im `Description`-Tag beim `Entities.csproj` und somit auch imm zugehörigen NuGet-Package.
 
-### Klassenbibliothek Template
-
-- **Kurzname:** `nuget-classlib`
-- Erstellt eine .NET Klassenbibliothek im "Kurmann"-Namespace, vorbereitet für die NuGet-Veröffentlichung.
-
-#### Nutzung Klassenbibliotheks-Template
-
-```bash
-dotnet new nuget-classlib -n MeinNugetPaket -o src
-```
-
-### GitHub-Action für NuGet-Veröffentlichung
-
-- **Kurzname:** `nuget-classlib-workflow`
-- Generiert eine GitHub-Action-Workflow-Datei für die automatische Veröffentlichung auf NuGet.org.
-
-#### Nutzung GitHub-Action
-
-```bash
-dotnet new nuget-classlib-workflow
-```
-
 ### Services GitHub Repository Template
 
 Dieses Template automatisiert die Erstellung eines vollständigen GitHub-Repositories für ein ServiceCollection, die mit dem IServiceCollection-Interface eingebunden werden kann. Es integriert VSCode Debug Einstellungen und enthält die vollständigen Workflows aus dem Repository "kurmann/GitHub.Workflows".
 
+**Kurzname**: `services-repo`
+
 #### Verwendung
 
 ```bash
-dotnet new service-repo -n IhrProjektName --namespace IhrRootNamespace --description "Kurze Beschreibung Ihres Projekts"
+dotnet new services-repo -n IhrProjektName --namespace IhrRootNamespace --description "Kurze Beschreibung Ihres Projekts"
 ```
 
 Die Verzeichnisstruktur Ihres neuen Repositorys sieht wie folgt aus:
@@ -173,8 +153,9 @@ Das `Services GitHub Repository Template` ist ein mächtiges Werkzeug, um ein st
 
 ### Template: .NET Gitignore
 
-- **Kurzname:** `dotnet-gitignore`
-- Erstellt ein `.gitignore` im Arbeitsverzeichnis speziell für .NET-Entwicklungen, basierend auf aktuellen Best Practices und gängigen Ignorierungsregeln für .NET-Projekte.
+Erstellt ein `.gitignore` im Arbeitsverzeichnis speziell für .NET-Entwicklungen, basierend auf aktuellen Best Practices und gängigen Ignorierungsregeln für .NET-Projekte.
+
+**Kurzname:** `dotnet-gitignore`
 
 #### Nutzung Gitignore-Template
 
