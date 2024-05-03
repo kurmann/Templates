@@ -11,7 +11,7 @@ Eine kleine Sammlung von verschiedenen Templates zur Beschleunigung der .NET-Ent
 Die Installation der Templates erfolgt unkompliziert über die .NET CLI:
 
 ```bash
-dotnet new --install Kurmann.Templates
+dotnet new install Kurmann.Templates
 ```
 
 ## Verfügbare Templates
