@@ -15,17 +15,3 @@ Dieses Projekt ist unter der Apache-2.0-Lizenz lizenziert – siehe die Datei [L
 ## Kontakt
 
 Falls Sie Fragen haben oder Unterstützung benötigen, erstellen Sie bitte ein Issue im GitHub-Repository.
-
-## Änderungsverlauf
-
-Dieses Projekt hält sich an die Semantische Versionierung (SemVer).
-
-### Unveröffentlicht
-
-- Keine
-
-### 0.1 - YYYY-MM-DD
-
-#### Hinzugefügt
-
-- Projekt erstellt und als NuGet-Paket veröffentlicht
