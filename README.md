@@ -1,5 +1,13 @@
 # .NET Templates
 
+## Archivierung
+
+### Dieses Repository wird archiviert
+
+**Hinweis:** Dieses Repository wird nicht mehr aktiv weiterentwickelt und ist archiviert. Aufgrund der Entscheidung vom 31. Mai 2024, die Arbeiten nicht mehr in mehreren Repositories, sondern im Monorepo [kurmann/videoschnitt](https://github.com/kurmann/videoschnitt) weiterzuführen, ist die Sinnhaftigkeit dieser Repository-Templates nicht mehr gegeben.
+
+---
+
 Eine kleine Sammlung von verschiedenen Templates zur Beschleunigung der .NET-Entwicklung  und vereinfachten NuGet-Veröffentlichung.
 
 ## Beschreibung
